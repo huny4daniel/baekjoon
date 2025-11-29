@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "baekjoon_bfd6d050"
+        },
+        {
+            "type": "java",
+            "name": "현재 파일 디버깅 (Baekjoon)",
+            "request": "launch",
+            "mainClass": "${fileBasenameNoExtension}",
+            "projectName": "",
+            "vmArgs": "-Dfile.encoding=UTF-8",
+            "classPaths": [
+                "${fileDirname}"
+            ]
+        }
+    ]
+}
