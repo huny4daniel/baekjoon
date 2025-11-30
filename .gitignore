@@ -1,4 +1,8 @@
-baekjoon/.vscode/
+.classpath
 
-baekjoon/0_form/
-baekjoon/99_progressQuestion/
+.vscode/
+
+bin/
+*.class
+
+0_Solving/forms/
