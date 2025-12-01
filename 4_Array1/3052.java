@@ -1,4 +1,5 @@
 import java.io.*;
+import java.util.Arrays;
 
 class Main {
     public static void main(String[] args) throws IOException {
@@ -14,19 +15,9 @@ class Main {
                 remain[i] = a % b;
             }
 
-            int count = 10 * 2;
-            for ( int i = 0; i < 10; i++ ) {
-                for ( int j = 0; j < 10; j++ ) {
-                    if ( i == j ) {
-                        continue;
-                    }
-                    if ( remain[i] == remain[j] ) {
-                        count --;
-                    }
-                }
-            }
+            int remain2[] = Arrays.stream( remain ).distinct().toArray();
 
-            bw.write( count / 2 + "" );
+            bw.write( remain2.length + "" );
         }
     }
 }
