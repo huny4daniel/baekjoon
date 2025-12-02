@@ -6,10 +6,8 @@ class Main {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out)) 
         ) {
-            int n = Integer.parseInt( br.readLine() );
-
-            String num = br.readLine();
-            String strNums[] = num.split( "" );
+            String n = br.readLine();
+            String strNums[] = n.split( "" );
             int intNums[] = new int[ strNums.length ];
 
             for ( int i = 0; i < strNums.length; i++ ) {
