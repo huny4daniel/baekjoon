@@ -1,8 +1,4 @@
-.classpath
-
-.vscode/
-
-bin/
+/
 *.class
 
 0_Solving/forms/
