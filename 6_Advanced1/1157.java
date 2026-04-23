@@ -34,7 +34,7 @@ class Main {
                     maxChar = key;
                     draw = false;
                 }
-                else if (charCounter.get( maxChar ) == charCounter.get( key )) {
+                else if (charCounter.get( maxChar ).equals( charCounter.get( key ) )) {
                     draw = true;
                 }
                 else {
